@@ -9,7 +9,7 @@ int main()
         printf("NO SOLUTION");
         return 0;
     }
-    for (int i = n; i < 999; i++)
+    for (int i = n + 1; i < 999; i++)
     {
         if (i % 2 == 1 && i % 3 == 1 && i % 4 == 1 && i % 5 == 1 && i % 6 == 1)
         {
